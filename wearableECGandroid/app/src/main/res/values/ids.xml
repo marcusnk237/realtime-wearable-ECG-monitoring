@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageView10" type="id" />
+    <item name="imageView13" type="id" />
+    <item name="imageView11" type="id" />
+    <item name="imageView14" type="id" />
+    <item name="textView2" type="id" />
+    <item name="textView3" type="id" />
+    <item name="textView4" type="id" />
+    <item name="connect_btn" type="id" />
+    <item name="textView5" type="id" />
+    <item name="menu_refresh" type="id" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538238049085",
+    "project_id": "ensaitwearable-60037",
+    "storage_bucket": "ensaitwearable-60037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538238049085:android:e28d948bbd98e45cbf4354",
+        "android_client_info": {
+          "package_name": "com.realtimewearable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0TUQd5a0hw6XAgQnJe0k2x-SkeeXQDZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
