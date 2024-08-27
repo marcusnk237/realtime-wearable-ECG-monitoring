@@ -42,14 +42,17 @@ To address this issue, we developed a wearable system coupled with a deep learni
 
 
 
-### sofware built With
+### Sofware built With
 
 [![Python][Python]][Python-url]
 [![Tensorflow][Tensorflow]][Tensorflow-url]
-[![Android][Android]][android-url]
+[![Java][Java]][Java-url]
+[![Android][Android]][Android-url]
+[![C-icon][C-icon]][C-url]
 
 ### Hardware
-[![Arduino][Arduino]][android-url]
+[![Arduino][Arduino]][Arduino-url]
+[![ECG][ECG]][ECG-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,30 +60,25 @@ To address this issue, we developed a wearable system coupled with a deep learni
 ## Getting Started
 
 ### Prerequisites
-[![Tensorflow][Tensorflow]][Tensorflow-url]
-[![Numpy][Numpy]][Numpy-url]
+[![ArduinoIDE][ArduinoIDE]][ArduinoIDE-url]
+[![Androidstudio][Androidstudio]][Androidstudio-url]
 
 ### Installation
 
-Clone the repo
+> - Clone the repo
    ```
    sh git clone https://github.com/marcusnk237/realtime-wearable-ECG-monitoring.git
    ```
+> - Upload the C++ program to your Arduino Board using Arduino IDE
+> - Install the android application using Android Studio
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 ```
-
-compute_cam_1d_output (model, data , layer_name , N)
-Arguments:
-> - model : The model trained
-> - data : The data sample
-> - layer_name : The last layer of the feature extraction part of the model. Usually, it is the last layer before the Flattening operation.
-> - N : data length
+> - After wearing the wearable system , the user have to launch the android application.
+> - Click to connect to device button. The application will scan every peripheral BLE nearby.
+> - The user must connect the application to a peripheral named ENSAITHealthMonitorDevice
 ```
-![Alt text](https://github.com/marcusnk237/dataset_gradcam_plus_plus/blob/main/results/gradcam_plus_plus_1d.png)
-
-
 <!-- CONTACT -->
 ## Contact
 * [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -88,33 +86,23 @@ Arguments:
 * Project Link: [https://github.com/marcusnk237/realtime-wearable-ECG-monitoring](https://github.com/marcusnk237/realtime-wearable-ECG-monitoring)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-The authors of the original article about GRAD-CAM++
-* [Aditya Chattopadhay; Anirban Sarkar; Prantik Howlader; Vineeth N Balasubramanian : Grad-CAM++: Generalized Gradient-Based Visual Explanations for Deep Convolutional Networks](https://doi.org/10.1109/WACV.2018.00097)
+The authors of the original article 
+* [Marc Junior Nkengue,Xianyi Zeng,Ludovic Koehl,Xuyuan Tao,François Dassonville,Nicolas Dumont,Shixin Ye-Lehmann,Yvette Akwa,Hanwen Ye : An intelligent garment for long COVID-19 real-time monitoring](https://doi.org/10.1016/j.compbiomed.2024.109067)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/marcusnk237/dataset_gradcam_plus_plus/blob/main/LICENSE
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/marc-junior-nkengue/
 [product-screenshot]: images/screenshot.png
 
-[Opencv]:https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white
-[Opencv-url]:https://pypi.org/project/opencv-python/
-[Matplotlib]:https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Matplotlib-url]:https://matplotlib.org/
-[NumPy]: https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white
-[Numpy-url]:https://numpy.org/
-[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=yellow
+[Python]: https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png
 [Python-url]: https://www.python.org/
-[Tensorflow]: https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white 
+[Tensorflow]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsqbuvRgmIsxTT1R_bCdv8txFKkw2ylx5Lg&s 
 [Tensorflow-url]:  https://www.tensorflow.org/
 [Arduino]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrbcHJkJJ0cIU-Q_Bp_5s6_AnWLLMQuqs3NQ&s
 [Arduino-url]: https://docs.arduino.cc/hardware/nano-33-ble-sense/
@@ -124,5 +112,13 @@ The authors of the original article about GRAD-CAM++
 [C-url]:https://cplusplus.com/
 [Java]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9SixnYxC_OiSUivLvK8KpOZhSwngrZfKYhQ&s
 [Java-url]:https://www.java.com/
+[ECG]: https://cdn.sparkfun.com/assets/parts/9/3/4/4/12650-01.jpg
+[ECG-url]:https://www.sparkfun.com/products/12650
+
+[ArduinoIDE]: https://content.arduino.cc/assets/arduino_logo_1200x630-01.png
+[ArduinoIDE-url]:https://www.arduino.cc/en/software
+
+[Androidstudio]: https://linuxtutoriels.wordpress.com/wp-content/uploads/2017/06/android-studio-logo.png
+[Androidstudio-url]:https://developer.android.com/studio
 
 
