@@ -58,15 +58,13 @@ To address this issue, we developed a wearable system coupled with a deep learni
 
 ### Prerequisites
 [![Tensorflow][Tensorflow]][Tensorflow-url]
-[![Opencv][Opencv]][Opencv-url]
-[![Matplotlib][Matplotlib]][Matplotlib]
 [![Numpy][Numpy]][Numpy-url]
 
 ### Installation
 
 Clone the repo
    ```
-   sh git clone https://github.com/marcusnk237/Gradcam_plus_plus.git
+   sh git clone https://github.com/marcusnk237/realtime-wearable-ECG-monitoring.git
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
