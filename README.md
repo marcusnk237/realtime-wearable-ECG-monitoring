@@ -1,4 +1,3 @@
-# realtime-wearable-ECG-monitoring
 <a name="readme-top"></a>
 <br />
 <div align="center">
